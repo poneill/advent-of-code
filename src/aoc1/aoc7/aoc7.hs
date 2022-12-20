@@ -1,0 +1,4 @@
+data File = File String Int
+  deriving Show
+data Directory = Directory String [Directory] [File]
+  deriving Show
